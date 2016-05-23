@@ -1,0 +1,25 @@
+.col-lg-4 {
+  border-color: black;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: inset;
+  background-color: yellow;
+  width: 210px;
+  height: 290px;
+  background-size: contain;
+}
+
+.card-overturned {
+  background-image: url(img/ace.jpg);
+}
+
+.card{
+  background-image: url(img/card.jpg);
+}
+
+.card:hover{
+  border-width: 7px;
+  border-radius: 10px;
+  border-color: blue;
+
+}
